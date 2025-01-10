@@ -33,4 +33,5 @@ Endpoints:
 
 github [here](https://github.com/wraithio/ARobinsonMC5Eight2Ten-EndPnt)
 
-### Peer Review by: 
+### Peer Review by: Alexander Soria
+Your endpoints work exactly as intended. However, Guess It had to be comprised of 3 endpoints tied to one controller, and it seems you only made one endpoint for Guess It. Other than that, everything else looks good.
