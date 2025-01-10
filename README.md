@@ -29,11 +29,8 @@ Endpoints:
 
 3. Restaurant Picker: create 1 endpoint that takes an input and generates a Randomly Generated Restaurant based on the category chosen. 10 Restaurants per category.
 
-
-
-
 ---
 
-github [here](https://github.com/wraithio/ARobinsonMC4Five2Svn-EndPnt)
+github [here](https://github.com/wraithio/ARobinsonMC5Eight2Ten-EndPnt)
 
 ### Peer Review by: 

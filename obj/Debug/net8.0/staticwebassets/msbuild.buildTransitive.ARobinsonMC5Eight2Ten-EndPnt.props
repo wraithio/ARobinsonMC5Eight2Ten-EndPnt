@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ARobinsonMC5Eight2Ten-EndPnt.props" />
+</Project>
