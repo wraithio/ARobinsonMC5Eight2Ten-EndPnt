@@ -15,22 +15,24 @@ namespace ARobinsonMC5Eight2Ten_EndPnt.Controllers
         }
 
         [HttpGet]
-        [Route("goGuessIt/{guessInt}/{difficulty}")]
-        public string goGuessIt(int guessInt, string difficulty)
+        [Route("EasygoGuessIt/{guessInt}")]
+        public string goGuessIt(int guessInt)
         {
-            if(difficulty.ToLower() == "easy")
-            {
-                return _guessItServices.goGuessIt(guessInt, 1,10);
-            }else if(difficulty.ToLower() == "medium")
-            {
-                return _guessItServices.goGuessIt(guessInt, 1,50);
-            }else if(difficulty.ToLower() == "hard")
-            {
-                return _guessItServices.goGuessIt(guessInt, 1,100);
-            }else
-            {
-                return "INVALID DIFFICULTY. Difficulty modes are 'easy', 'medium', or 'hard'.";
-            }
+            return _guessItServices.EasygoGuessIt(guessInt);
+        }
+
+        [HttpGet]
+        [Route("MediumgoGuessIt/{guessInt}")]
+        public string MediumgoGuessIt(int guessInt)
+        {
+            return _guessItServices.EasygoGuessIt(guessInt);
+        }
+
+        [HttpGet]
+        [Route("HardgoGuessIt/{guessInt}")]
+        public string HardgoGuessIt(int guessInt)
+        {
+            return _guessItServices.EasygoGuessIt(guessInt);
         }
     }
 }

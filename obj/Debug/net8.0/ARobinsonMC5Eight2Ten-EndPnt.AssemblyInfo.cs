@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ARobinsonMC5Eight2Ten-EndPnt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b402497557b518092fc41e6a17a8747b1dd9f0e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a6bd6d8d8145f2c16932fb80918dd164c47d94d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ARobinsonMC5Eight2Ten-EndPnt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ARobinsonMC5Eight2Ten-EndPnt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
